@@ -1,0 +1,159 @@
+body {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(25, 25, 25);
+  font-weight: 400;
+  line-height: 18.2px;
+  font-size: 12.5px;
+}
+
+.close-button, .back-button {
+  position: absolute;
+  top: 0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2em;
+  color: #929292;
+}
+
+.close-button {
+  right: 0;
+}
+
+.back-button {
+  left: 0;
+}
+
+/* Forms */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  font-size: 10px;
+  color: #0E209C;
+  text-align: center;
+}
+
+.signup-form__title, .register-form__title, .thanks-page__title {
+  display: block;
+  padding: 10px;
+  padding: 20px 0;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px rgb(230, 230, 230) solid;
+}
+
+.signup-form__subtitle, .register-form__subtitle {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.signup-form__options, .register-form__options {
+  margin: 0 15px;
+}
+
+.signup-form__options {
+  label, input {
+    padding: 15px;
+  }
+}
+
+.signup-form__label {
+  text-transform: uppercase;
+  display: block;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  color: #969696;
+}
+
+form .signup-form__label:first-of-type {
+  border-top: 1px solid rgb(230, 230, 230);
+}
+
+.signup-form__label:hover {
+  color: #0E209C;
+}
+
+.signup-form__footer, .register-form__footer {
+  display: block;
+  margin: 20px 0;
+  font-size: 10px;
+}
+
+.signup-form__footer {
+  text-align: center;
+  font-weight: 800;
+}
+
+.signup-form form {
+  padding: 0px 5px;
+}
+
+.register-form__option {
+  padding-top: 20px;
+  input {
+    display: block;
+    padding-top: 5px;
+    color: rgb(25, 25, 25);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-style: none;
+    border-top-width: 0px;
+    width: 90%;
+    &[type="textarea"] {
+      padding-bottom: 30px;
+    }
+  }
+}
+
+.register-form__button, .thanks-page__button {
+  position: absolute;
+  bottom: 25px;
+  padding: 10px;
+  width: 90%;
+  left: 5%;
+  text-transform: uppercase;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid rgb(230, 230, 230);
+}
+
+/* Thanks page */
+
+.thanks-page__content {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.thanks-page__content__text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 8px;
+}
+
+.thanks-page__advantage-title {
+  font-weight: 600;
+}
+
+.check {
+  color: #0E209C;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.mainCheck {
+  font-size: 100px;
+  display: block;
+  padding: 40px;
+}
